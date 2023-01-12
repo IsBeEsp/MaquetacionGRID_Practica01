@@ -1,0 +1,193 @@
+/* Ismael Belmonte Espinosa */
+
+/* Reseteo de propiedades incorporado de: */
+/* https://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+    
+
+/*  Para todo el documento 
+    Pongo box-sizing en border-box.
+    Al body le doy la fuente que escogí de Google Fonts, un tamaño responsive a todo el texto del documento menos anchura y un margen
+    para estrechar todo el documento y que no ocupe toda la ventana de forma similar al ejemplo de la práctica.
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    
+    background-image: radial-gradient(circle, #b1b1b1, #9893a6, #82759a, #70578b, #5f387b, #56286e, #4d1760, #440053, #3e0048, #37003d, #310133, #2a002a);
+    font-family: 'Zen Dots', cursive;
+    font-size: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    width: 90%;
+}
+
+/* Para los elementos del header */
+header{
+    text-align: center;
+}
+
+h1 {
+    color:rgb(158, 11, 158);
+    font-family: 'Zen Dots', cursive;
+    font-size: 2vw;
+}
+
+h2 {
+    color:rgb(78, 78, 209);
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.5vw;
+}
+
+/* Para los grid containers */
+.contenedor-exterior{
+    display: grid;
+}
+
+/* Elementos del grid exterior */
+
+#grid-exterior-1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#grid-exterior-2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+/* Para el contenedor de figure */
+.fila {
+    display: grid;
+}
+
+/* Para los figure */
+#grid1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#grid2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#grid3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#grid4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#grid5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#grid6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+#imagenes{
+    grid-column-start: 2;
+    grid-column-end: 1;
+}
+
+
+.grid-item{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+/*  Para el elemento de navegación izquierdo.
+    Reseteo los estilos de los enlaces y les doy un poco de dinamismo.
+*/
+a {
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color:palevioletred;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: 25%;
+}
+
+figure {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    padding: 1.5%;
+    text-align: center;
+}
+
+figcaption{
+    text-align: justify;
+}
+
+img {
+    border-radius: 10px;
+    width: 18rem;
+}
+
+/* Color para destacar la palabra que contiene un elemento <abbr> */
+span{
+    color: red;
+}
+
+/* Para el footer */
+footer {
+    color: white;
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 1.5%;
+    text-align: left;
+}
+
+#textoIzquierda{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#textoDerecha{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+footer img{
+    width: 5rem;
+}
