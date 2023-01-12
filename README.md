@@ -28,7 +28,7 @@ Si el estilo de la página no aparece, pruebe a modificar esta ruta[^2] en el ar
 
 **Licencia: MIT**
 
-[Recursos adicionales](https://github.com/IsBeEsp/MaquetacionGRID_Practica01c) 
+[Recursos adicionales](https://github.com/IsBeEsp/MaquetacionGRID_Practica01) 
 
 [^1]: Grid es un tipo de maquetado, con el cual las páginas web estructuran su contenido por filas y columnas, similar a una tabla.
 [^2]: La ruta de la etiqueta HTML link hace referencia a la hoja de estilos del archivo.
