@@ -11,7 +11,7 @@ Este proyecto fué desarrollado en Noviembre de 2022 como práctica para la asig
 
 ### Despliegue
 ---
-[Abra este archivo al ejecutar el proyecto](https://github.com/IsBeEsp/MaquetacionGRID_Practica01c/blob/main/mgridP01c_BelmonteEspinosaIsmael.html)
+[Abra este archivo al ejecutar el proyecto](https://github.com/IsBeEsp/MaquetacionGRID_Practica01/blob/main/mGridP01_BelmonteEspinosaIsmael.html)
 
 Si el estilo de la página no aparece, pruebe a modificar esta ruta[^2] en el archivo principal.
 
